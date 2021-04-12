@@ -4,18 +4,19 @@
         "paragraph": "A collaborative decision making platform for organizations to save time, remove bias, and make informed group decisions."
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "DecisionHub is a digital end-to-end decision making platform that allows organizations to easily make unbiased group decisions involving multiple stakeholders.",
+        "paragraph2": "Our web platform handles the interactions between all stakeholders including the admins, applicants and reviewers.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Form Management",
+            "Reviewer Portal",
+            "Decision Matrix",
+            "Performance & Tracking"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Data Analysis",
+            "Offered as a service",
+            "Grant Applications",
+            "Lower Cost"
         ]
     },
     "Services": [{
