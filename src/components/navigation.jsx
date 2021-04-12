@@ -1,5 +1,3 @@
-import DecisionHub from "./images/decisionhub.png";
-
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -18,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            <img src={DecisionHub} alt="Decision Hub Logo" style={{height: '70px', padding: '0px', marginTop: '-25px'}}/>
+            <img src="img/decisionhub.png" alt="Decision Hub Logo" style={{height: '70px', padding: '0px', marginTop: '-25px'}}/>
           </a>{' '}
         </div>
 
