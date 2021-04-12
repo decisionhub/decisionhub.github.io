@@ -83,23 +83,23 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+            "img": "img/team/ahmed.jpg",
+            "name": "Ahmed Hamodi",
+            "job": "Co-founder"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
+            "img": "img/team/greg.jpg",
+            "name": "Greg Maxin",
+            "job": "Co-founder"
         }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
+            "img": "img/team/hyunzee.jpg",
+            "name": "Hyunzee Kim",
+            "job": "Developer"
         },
         {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "img": "img/team/derek.jpg",
+            "name": "Derek Maxin",
+            "job": "Developer"
         }
     ],
     "Contact": {
