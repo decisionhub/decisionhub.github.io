@@ -19,40 +19,25 @@
             "Lower Cost"
         ]
     },
-    "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "Services": [
+        {
+            "icon": "fa fa-comments-o",
+            "name": "Forms Tool",
+            "text": "Full form functionality including creating forms with various question types, generating a custom link to send to applicants, and allowing applicants to apply via the link."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-folder-open",
+            "name": "Review Tool",
+            "text": "Customizable decision matrix controlled by the admins that allows the reviewers of the decision process to log into the platform and make independent and unbiased decisions."
         },
         {
             "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Admin Portal",
+            "text": "Throughout the review process, there is a full admin portal allowing organization admins to track progress of reviewers and view & export the final aggregated review data."
         }
-
-
     ],
-    "Testimonials": [{
+    "Testimonials": [
+        {
             "img": "img/testimonials/dan_collens.jpg",
             "text": "I liked Arbitrium a lot. I didn't think I would really care about the improvements... but it was a lot more enjoyable to use.",
             "name": "Dan Collens, Cofounder at OurGroceries, Inc."
@@ -73,7 +58,8 @@
             "name": "Jane Arnold, board member for SVP and Canadian Cancer Society"
         }
     ],
-    "Team": [{
+    "Team": [
+        {
             "img": "img/team/ahmed.jpg",
             "name": "Ahmed Hamodi",
             "job": "Co-founder"
@@ -82,7 +68,8 @@
             "img": "img/team/greg.jpg",
             "name": "Greg Maxin",
             "job": "Co-founder"
-        }, {
+        },
+        {
             "img": "img/team/hyunzee.jpg",
             "name": "Hyunzee Kim",
             "job": "Developer"
@@ -98,7 +85,8 @@
         "twitter": "https://twitter.com/trydecisionhub",
         "linkedin": "https://www.linkedin.com/company/decisionhub/"
     },
-    "Features": [{
+    "Features": [
+        {
             "icon": "fa fa-comments-o",
             "title": "Forms Creation",
             "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types."
