@@ -100,23 +100,23 @@
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Forms Creation",
+            "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-envelope-o",
+            "title": "Forms Submission",
+            "text": "Applicants can go to a link without logging in and apply to a form, automatically piping the data to the internal platform."
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Review Tool",
+            "text": "Committee review members can log into the platform and perform independent, unbiased, reviews on all applications within the round."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Aggregated Data",
+            "text": "Admins can view aggregated review data from all reviewers on an admin portal to help guide the final decision making process."
         }
     ]
 }
