@@ -43,14 +43,14 @@
             "name": "Dan Collens, Cofounder at OurGroceries, Inc."
         },
         {
-            "img": "img/testimonials/barbara_hill.jpg",
-            "text": "Way easier than what we were using before.",
-            "name": "Barbara Hill, former Director at KidsAbility"
-        },
-        {
             "img": "img/testimonials/rose_greenside.jpg",
             "text": "Saved 1000s of hours of reviewers time.",
             "name": "Rose Greenside, Executive Director at Social Venture Partners"
+        },
+        {
+            "img": "img/testimonials/barbara_hill.jpg",
+            "text": "Way easier than what we were using before.",
+            "name": "Barbara Hill, former Director at KidsAbility"
         },
         {
             "img": "img/testimonials/default.jpg",
