@@ -1,6 +1,6 @@
 export const About = (props) => {
   return (
-    <div id="about">
+    <div id="aboot">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
