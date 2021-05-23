@@ -1,110 +1,110 @@
 {
-    "Header": {
-        "title": "Collaborative Decision Making",
-        "paragraph": "A collaborative decision making platform for organizations to save time, remove bias, and make informed group decisions."
-    },
-    "About": {
-        "paragraph": "DecisionHub is a digital end-to-end decision making platform that allows organizations to easily make unbiased group decisions involving multiple stakeholders.",
-        "paragraph2": "Our web platform handles the interactions between all stakeholders including the admins, applicants and reviewers.",
-        "Why": [
-            "Form Management",
-            "Reviewer Portal",
-            "Decision Matrix",
-            "Performance & Tracking"
-        ],
-        "Why2": [
-            "Data Analysis",
-            "Offered as a service",
-            "Grant Applications",
-            "Lower Cost"
-        ]
-    },
-    "Services": [
-        {
-            "icon": "fa fa-comments-o",
-            "name": "Forms Tool",
-            "text": "Full form functionality including creating forms with various question types, generating a custom link to send to applicants, and allowing applicants to apply via the link."
-        },
-        {
-            "icon": "fa fa-folder-open",
-            "name": "Review Tool",
-            "text": "Customizable decision matrix controlled by the admins that allows the reviewers of the decision process to log into the platform and make independent and unbiased decisions."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Admin Portal",
-            "text": "Throughout the review process, there is a full admin portal allowing organization admins to track progress of reviewers and view & export the final aggregated review data."
-        }
+  "Header": {
+    "title": "Collaborative Decision Making",
+    "paragraph": "A collaborative decision making platform for organizations to save time, remove bias, and make informed group decisions."
+  },
+  "About": {
+    "paragraph": "DecisionHub is a digital end-to-end decision making platform that allows organizations to easily make unbiased group decisions involving multiple stakeholders.",
+    "paragraph2": "Our web platform handles the interactions between all stakeholders including the admins, applicants and reviewers.",
+    "Why": [
+      "Form Management",
+      "Reviewer Portal",
+      "Decision Matrix",
+      "Performance & Tracking"
     ],
-    "Testimonials": [
-        {
-            "img": "img/testimonials/dan_collens.jpg",
-            "text": "I liked [DecisionHub] a lot. I didn't think I would really care about the improvements... but it was a lot more enjoyable to use.",
-            "name": "Dan Collens, Cofounder at OurGroceries, Inc."
-        },
-        {
-            "img": "img/testimonials/rose_greenside.jpg",
-            "text": "Saved 1000s of hours of reviewers time.",
-            "name": "Rose Greenside, Executive Director at Social Venture Partners"
-        },
-        {
-            "img": "img/testimonials/barbara_hill.jpg",
-            "text": "Way easier than what we were using before.",
-            "name": "Barbara Hill, former Director at KidsAbility"
-        },
-        {
-            "img": "img/testimonials/default.jpg",
-            "text": "Very simple and easy to use.",
-            "name": "Jane Arnold, board member for SVP and Canadian Cancer Society"
-        }
-    ],
-    "Team": [
-        {
-            "img": "img/team/ahmed.jpg",
-            "name": "Ahmed Hamodi",
-            "job": "Co-founder"
-        },
-        {
-            "img": "img/team/greg.jpg",
-            "name": "Greg Maxin",
-            "job": "Co-founder"
-        },
-        {
-            "img": "img/team/hyunzee.jpg",
-            "name": "Hyunzee Kim",
-            "job": "Developer"
-        },
-        {
-            "img": "img/team/derek.jpg",
-            "name": "Derek Maxin",
-            "job": "Developer"
-        }
-    ],
-    "Contact": {
-        "email": "support@decisionhub.org",
-        "twitter": "https://twitter.com/trydecisionhub",
-        "linkedin": "https://www.linkedin.com/company/decisionhub/"
-    },
-    "Features": [
-        {
-            "icon": "fa fa-comments-o",
-            "title": "Forms Creation",
-            "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types."
-        },
-        {
-            "icon": "fa fa-envelope-o",
-            "title": "Forms Submission",
-            "text": "Applicants can go to a link without logging in and apply to a form, automatically piping the data to the internal platform."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Review Tool",
-            "text": "Committee review members can log into the platform and perform independent, unbiased, reviews on all applications within the round."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Aggregated Data",
-            "text": "Admins can view aggregated review data from all reviewers on an admin portal to help guide the final decision making process."
-        }
+    "Why2": [
+      "Data Analysis",
+      "Offered as a service",
+      "Grant Applications",
+      "Lower Cost"
     ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-comments-o",
+      "name": "Forms Tool",
+      "text": "Full form functionality including creating forms with various question types, generating a custom link to send to applicants, and allowing applicants to apply via the link."
+    },
+    {
+      "icon": "fa fa-folder-open",
+      "name": "Review Tool",
+      "text": "Customizable decision matrix controlled by the admins that allows the reviewers of the decision process to log into the platform and make independent and unbiased decisions."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Admin Portal",
+      "text": "Throughout the review process, there is a full admin portal allowing organization admins to track progress of reviewers and view & export the final aggregated review data."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/dan_collens.jpg",
+      "text": "I liked [DecisionHub] a lot. I didn't think I would really care about the improvements... but it was a lot more enjoyable to use.",
+      "name": "Dan Collens, Cofounder at OurGroceries, Inc."
+    },
+    {
+      "img": "img/testimonials/rose_greenside.jpg",
+      "text": "Saved 1000s of hours of reviewers time.",
+      "name": "Rose Greenside, Executive Director at Social Venture Partners"
+    },
+    {
+      "img": "img/testimonials/barbara_hill.jpg",
+      "text": "Way easier than what we were using before.",
+      "name": "Barbara Hill, former Director at KidsAbility"
+    },
+    {
+      "img": "img/testimonials/default.jpg",
+      "text": "Very simple and easy to use.",
+      "name": "Jane Arnold, board member for SVP and Canadian Cancer Society"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/ahmed.jpg",
+      "name": "Ahmed Hamodi",
+      "job": "Co-founder"
+    },
+    {
+      "img": "img/team/greg.jpg",
+      "name": "Greg Maxin",
+      "job": "Co-founder"
+    },
+    {
+      "img": "img/team/hyunzee.jpg",
+      "name": "Hyunzee Kim",
+      "job": "Developer"
+    },
+    {
+      "img": "img/team/derek.jpg",
+      "name": "Derek Maxin",
+      "job": "Developer"
+    }
+  ],
+  "Contact": {
+    "email": "support@decisionhub.org",
+    "twitter": "https://twitter.com/trydecisionhub",
+    "linkedin": "https://www.linkedin.com/company/decisionhub/"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Forms Creation",
+      "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types."
+    },
+    {
+      "icon": "fa fa-envelope-o",
+      "title": "Forms Submission",
+      "text": "Applicants can go to a link without logging in and apply to a form, automatically piping the data to the internal platform."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Review Tool",
+      "text": "Committee review members can log into the platform and perform independent, unbiased, reviews on all applications within the round."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Aggregated Data",
+      "text": "Admins can view aggregated review data from all reviewers on an admin portal to help guide the final decision making process."
+    }
+  ]
 }
