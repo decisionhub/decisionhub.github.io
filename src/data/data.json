@@ -69,24 +69,24 @@
       "name": "Greg Maxin",
       "job": "Co-Founder & Director"
     }
-    ],
-    "Team": [
-      {
-        "img": "img/team/stock_photo.jpg",
-        "name": "Anthony Robertson",
-        "job": "Business Development Executive"
-      },
-      {
-        "img": "img/team/hyunzee.jpg",
-        "name": "Hyunzee Kim",
-        "job": "Developer"
-      },
-      {
-        "img": "img/team/derek.jpg",
-        "name": "Derek Maxin",
-        "job": "Developer"
-      }
-    ],
+  ],
+  "Team": [
+    {
+      "img": "img/team/stock_photo.jpg",
+      "name": "Anthony Robertson",
+      "job": "Business Development Executive"
+    },
+    {
+      "img": "img/team/hyunzee.jpg",
+      "name": "Hyunzee Kim",
+      "job": "Developer"
+    },
+    {
+      "img": "img/team/derek.jpg",
+      "name": "Derek Maxin",
+      "job": "Developer"
+    }
+  ],
   "Contact": {
     "email": "support@decisionhub.org",
     "twitter": "https://twitter.com/trydecisionhub",
