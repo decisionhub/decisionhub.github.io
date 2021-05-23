@@ -58,23 +58,16 @@
       "name": "Jane Arnold, board member for SVP and Canadian Cancer Society"
     }
   ],
-  "ExecTeam": [
+  "Team": [
     {
       "img": "img/team/ahmed.jpg",
       "name": "Ahmed Hamodi",
-      "job": "Co-Founder & Director"
+      "job": "Co-founder"
     },
     {
       "img": "img/team/greg.jpg",
       "name": "Greg Maxin",
-      "job": "Co-Founder & Director"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/stock_photo.jpg",
-      "name": "Anthony Robertson",
-      "job": "Business Development Executive"
+      "job": "Co-founder"
     },
     {
       "img": "img/team/hyunzee.jpg",
