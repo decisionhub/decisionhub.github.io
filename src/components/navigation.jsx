@@ -17,9 +17,9 @@ export const Navigation = () => {
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
-              src="img/decisionhub.png"
+              src="img/dh_logo_full.png"
               alt="Decision Hub Logo"
-              style={{ height: "70px", padding: "0px", marginTop: "-25px" }}
+              style={{ height: "60px", padding: "0px", marginTop: "-20px" }}
             />
           </a>{" "}
         </div>
