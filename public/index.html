@@ -44,6 +44,15 @@
   <meta name="description" content="A collaborative decision making platform for organizations. 
   The platform supports all stakeholders including admins, reviewers, and applicants for ease of use!" />
   <meta name="author" content="DecisionHub" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GOOGLE_ANALYTICS_KEY%"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', "%REACT_APP_GOOGLE_ANALYTICS_KEY%");
+  </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
