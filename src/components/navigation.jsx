@@ -1,3 +1,9 @@
+import styled from "styled-components";
+const ScrollBar = styled.img`
+  height: 60px;
+  padding: 0px;
+  margin-top: -20px;
+`;
 export const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -16,11 +22,10 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img
+            <ScrollBar
               src="img/dh_logo_full.png"
               alt="Decision Hub Logo"
-              style={{ height: "60px", padding: "0px", marginTop: "-20px" }}
-            />
+            ></ScrollBar>
           </a>{" "}
         </div>
 
