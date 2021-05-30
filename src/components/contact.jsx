@@ -5,7 +5,7 @@ export const Contact = (props) => {
         <div className="social">
           <ul>
             <li>
-              <a href={props.data ? props.data.email : "/"}>
+              <a href={props.data ? "mailto:" + props.data.email : "/"}>
                 <i className="fa fa-envelope"></i>
               </a>
             </li>
