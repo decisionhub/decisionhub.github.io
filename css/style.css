@@ -289,6 +289,11 @@ header .intro-text {
   list-style: none;
   padding: 0;
 }
+#about-section {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
