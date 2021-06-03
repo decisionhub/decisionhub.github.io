@@ -221,7 +221,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 72px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -302,6 +302,13 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
+#about img {
+  width: 520px;
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
 #about p {
   line-height: 24px;
   margin: 30px 0;
@@ -313,7 +320,7 @@ header .intro-text {
   color: #fff;
 }
 #services .service-desc {
-  margin: 10px 10px 20px;
+  margin: 30px 30px 20px;
 }
 #services h2 {
   color: #fff;
