@@ -65,3 +65,17 @@ export const Navigation = () => {
     </nav>
   );
 };
+
+function addEventListenerList(list, event, fn) {
+  for (let i = 0, len = list.length; i < len; i++) {
+    list[i].addEventListener(event, fn, false);
+  }
+}
+
+const navItems = document.getElementsByClassName("page-scroll");
+addEventListenerList(navItems, "click", hideMenu);
+
+function hideMenu() {
+  alert("1");
+  document.getElementById("nav-trigger").checked = false;
+}
