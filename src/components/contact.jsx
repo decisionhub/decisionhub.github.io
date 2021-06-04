@@ -1,23 +1,31 @@
+import styled from "styled-components";
+
+const GetStartedText = styled.div`
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+`;
+
 export const Contact = (props) => {
   return (
     <div id="footer">
       <div className="social">
-        <div
-          className="section-title"
-          style={{ width: "100%", paddingLeft: "25%", paddingRight: "25%" }}
-        >
-          <h2>Get Started</h2>
-          <p>
-            Ready to learn more about DecisionHub and how it can help your
-            business make more informed group decisions? Please reach out to us
-            at{" "}
-            <a href="mailto:support@decisionhub.org">
-              <span style={{ color: "blue" }}>support@decisionhub.org</span>
-            </a>{" "}
-            to speak to one of the members from the team. We would love to chat!
-          </p>
-        </div>
-        <div className="section-title" style={{ marginBottom: "30px" }}>
+        <GetStartedText>
+          <div className="section-title">
+            <h2>Get Started</h2>
+            <p>
+              Ready to learn more about DecisionHub and how it can help your
+              business make more informed group decisions? Please reach out to
+              us at{" "}
+              <a href="mailto:support@decisionhub.org">
+                <span>support@decisionhub.org</span>
+              </a>{" "}
+              to speak to one of the members from the team. We would love to
+              chat!
+            </p>
+          </div>
+        </GetStartedText>
+        <div className="section-title-small">
           <h2>Socials</h2>
         </div>
         <ul>
