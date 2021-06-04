@@ -5,7 +5,10 @@
   },
   "About": {
     "paragraph": "DecisionHub is a digital end-to-end decision making platform that allows organizations to easily make unbiased group decisions involving multiple stakeholders.",
-    "paragraph2": "Our web platform handles the interactions between all stakeholders including the admins, applicants and reviewers.",
+    "paragraph2": "Our web platform handles the interactions between all stakeholders including the admins, applicants and reviewers."
+  },
+  "About2": {
+    "paragraph": "~our goal/competitive advantage/removing bias text~",
     "Why": [
       "Form Management",
       "Reviewer Portal",
