@@ -1,9 +1,11 @@
 import styled from "styled-components";
+
 const ScrollBar = styled.img`
   height: 60px;
   padding: 0px;
   margin-top: -20px;
 `;
+
 export const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">

@@ -1,10 +1,13 @@
 import styled from "styled-components";
-const DivWidthSixty = styled.div`
+
+const ExecTeam = styled.div`
   width: 60%;
 `;
-const DivWidthNinety = styled.div`
+
+const LargerTeam = styled.div`
   width: 90%;
 `;
+
 export const Team = (props) => {
   return (
     <div id="team" className="text-center">
@@ -16,7 +19,7 @@ export const Team = (props) => {
             here.
           </p>
         </div>
-        <DivWidthSixty className="container" id="row">
+        <ExecTeam className="container" id="row">
           {props.execTeam
             ? props.execTeam.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-sm-6 team">
@@ -31,8 +34,8 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </DivWidthSixty>
-        <DivWidthNinety className="container" id="row">
+        </ExecTeam>
+        <LargerTeam className="container" id="row">
           {props.team
             ? props.team.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-sm-4 team">
@@ -47,7 +50,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </DivWidthNinety>
+        </LargerTeam>
       </div>
     </div>
   );
