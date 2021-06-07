@@ -1,9 +1,9 @@
-export const About2 = (props) => {
+export const OurGoal = (props) => {
   return (
     <div id="about2">
       <div>
         <div className="row">
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12">
             <div className="about-text">
               <h3>Our Goal</h3>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>

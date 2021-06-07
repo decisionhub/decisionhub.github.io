@@ -3,7 +3,7 @@ export const About = (props) => {
     <div id="about1">
       <div>
         <div className="row">
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12">
             <div className="about-text">
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>

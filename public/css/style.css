@@ -265,14 +265,18 @@ header .intro-text {
 #about {
   margin: auto;
   display: flex;
-  padding: 50px 0;
+  width: fit-content;
+  padding: 100px 0;
 }
 #about1 {
-  margin-left: 100px;
-  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 500px;
 }
 #about2 {
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 500px;
 }
 #about h3 {
   font-size: 22px;
@@ -298,7 +302,6 @@ header .intro-text {
   margin-left: 6px;
   list-style: none;
   padding: 0;
-  min-width: 700px;
 }
 #about .about-text li:before {
   content: "\f00c";
@@ -321,7 +324,6 @@ header .intro-text {
   }
   #about2 {
     margin-bottom: 50px;
-    margin-left: 100px;
   }
 }
 /* Services Section */
