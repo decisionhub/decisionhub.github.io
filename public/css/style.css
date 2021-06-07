@@ -282,11 +282,25 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  margin: auto;
+  display: flex;
+  width: fit-content;
   padding: 100px 0;
+}
+#about1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 500px;
+}
+#about2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 500px;
 }
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px 0;
+  text-align: left;
 }
 #about h2 {
   position: relative;
@@ -308,11 +322,6 @@ header .intro-text {
   list-style: none;
   padding: 0;
 }
-#about-section {
-  display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
@@ -321,16 +330,20 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
-#about img {
-  width: 520px;
-  margin-top: 10px;
-  background: #fff;
-  border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
-}
 #about p {
   line-height: 24px;
   margin: 30px 0;
+}
+@media only screen and (max-width: 768px) {
+  #about {
+    display: inline;
+  }
+  #about1 {
+    margin-top: 50px;
+  }
+  #about2 {
+    margin-bottom: 50px;
+  }
 }
 /* Services Section */
 #services {
