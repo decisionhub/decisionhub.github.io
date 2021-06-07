@@ -269,9 +269,10 @@ header .intro-text {
 }
 #about1 {
   margin-left: 100px;
+  display: flex;
 }
 #about2 {
-  margin-top: 50px;
+  margin-left: 100px;
 }
 #about h3 {
   font-size: 22px;
@@ -310,6 +311,18 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+}
+@media only screen and (max-width: 768px) {
+  #about {
+    display: inline;
+  }
+  #about1 {
+    margin-top: 50px;
+  }
+  #about2 {
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
 }
 /* Services Section */
 #services {
