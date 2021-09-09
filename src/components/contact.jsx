@@ -47,7 +47,7 @@ export const Contact = (props) => {
         </ul>
       </div>
       <div className="container text-center">
-        <p>&copy; {" " + new Date().getFullYear()} DecisionHub</p>
+        <p>&copy; {new Date().getFullYear()} DecisionHub</p>
       </div>
     </div>
   );
