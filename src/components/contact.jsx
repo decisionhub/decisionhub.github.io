@@ -13,16 +13,25 @@ export const Contact = (props) => {
         <GetStartedText>
           <div className="section-title">
             <h2>Get Started</h2>
-            <p>
+            <p style={{ maxWidth: 820, margin: "auto" }}>
               Ready to learn more about DecisionHub and how it can help your
-              business make more informed group decisions? Please reach out to
-              us at{" "}
+              business make more informed group decisions? Click the button
+              below or email us at{" "}
               <a href="mailto:support@decisionhub.org">
                 <span>support@decisionhub.org</span>
               </a>{" "}
               to speak to one of the members from the team. We would love to
               chat!
             </p>
+            <a
+              href="https://calendly.com/decisionhub"
+              target="_blank"
+              className="btn btn-custom btn-lg page-scroll"
+              rel="noreferrer"
+              style={{ marginTop: 20 }}
+            >
+              <span style={{ color: "white" }}>Book Meeting</span>
+            </a>
           </div>
         </GetStartedText>
         <div className="section-title-small">
