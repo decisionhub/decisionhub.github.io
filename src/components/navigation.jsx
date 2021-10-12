@@ -64,6 +64,7 @@ export const Navigation = () => {
             <li>
               <Button
                 href="https://app.decisionhub.org/signup"
+                target="_blank"
                 variant="contained"
                 style={{
                   backgroundColor: "#5ca9fb",
@@ -82,6 +83,7 @@ export const Navigation = () => {
             <li>
               <Button
                 href="https://app.decisionhub.org/login"
+                target="_blank"
                 variant="contained"
                 style={{
                   background: "white",
