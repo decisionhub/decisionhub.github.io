@@ -5,7 +5,7 @@ const ExecTeam = styled.div`
 `;
 
 const LargerTeam = styled.div`
-  width: 90%;
+  width: 60%;
 `;
 
 export const Team = (props) => {
@@ -38,7 +38,7 @@ export const Team = (props) => {
         <LargerTeam className="container" id="row">
           {props.team
             ? props.team.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-sm-4 team">
+                <div key={`${d.name}-${i}`} className="col-sm-6 team">
                   <div className="thumbnail">
                     {" "}
                     <img src={d.img} alt="Team Member" className="team-img" />
@@ -51,6 +51,13 @@ export const Team = (props) => {
               ))
             : "loading"}
         </LargerTeam>
+        <p>
+          We are also working with{" "}
+          <a href="https://igslimited.ca/" target="_blank" rel="noreferrer">
+            IGS Limited
+          </a>
+          , who help with our sales and marketing.
+        </p>
       </div>
     </div>
   );

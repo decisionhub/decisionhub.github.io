@@ -75,11 +75,6 @@
   ],
   "Team": [
     {
-      "img": "img/team/anthony.jpg",
-      "name": "Anthony Robertson",
-      "job": "Business Development Executive"
-    },
-    {
       "img": "img/team/hyunzee.jpg",
       "name": "Hyunzee Kim",
       "job": "Developer"
