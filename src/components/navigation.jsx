@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Button from "@material-ui/core/Button";
 
 const ScrollBar = styled.img`
   height: 60px;
@@ -59,6 +60,43 @@ export const Navigation = () => {
               <a href="#team" className="page-scroll">
                 Team
               </a>
+            </li>
+            <li>
+              <Button
+                href="https://app.decisionhub.org/signup"
+                target="_blank"
+                variant="contained"
+                style={{
+                  backgroundColor: "#5ca9fb",
+                  backgroundImage:
+                    "linear-gradient(to right, #5ca9fb 0%, #6372ff 100%)",
+                  borderRadius: "5px",
+                  color: "white",
+                  textTransform: "capitalize",
+                  margin: 10,
+                  maxWidth: 80
+                }}
+              >
+                <span style={{ padding: 10 }}>Register</span>
+              </Button>
+            </li>
+            <li>
+              <Button
+                href="https://app.decisionhub.org/login"
+                target="_blank"
+                variant="contained"
+                style={{
+                  background: "white",
+                  border: "1px solid black",
+                  borderRadius: "5px",
+                  color: "black",
+                  textTransform: "capitalize",
+                  margin: 10,
+                  maxWidth: 80
+                }}
+              >
+                <span style={{ padding: 10 }}>Sign In</span>
+              </Button>
             </li>
           </ul>
         </div>
