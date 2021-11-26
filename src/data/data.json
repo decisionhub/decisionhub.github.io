@@ -39,6 +39,11 @@
       "text": "Throughout the review process, there is a full admin portal allowing organization admins to track progress of reviewers and view & export the final aggregated review data."
     }
   ],
+  "Videos": [
+    {
+      "link": "https://www.youtube.com/embed/i_tcv7cYqek"
+    }
+  ],
   "Testimonials": [
     {
       "img": "img/testimonials/dan_collens.jpg",
