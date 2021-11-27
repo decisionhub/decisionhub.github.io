@@ -1,35 +1,34 @@
+import Carousel from "react-material-ui-carousel";
+
 export const Testimonials = (props) => {
   return (
     <div id="testimonials">
       <div className="section-title text-center">
         <h2>What our clients say</h2>
       </div>
-      <div
-        className="container"
-        style={{ display: "flex", textAlign: "center" }}
-      >
-        <div className="row" style={{ margin: "auto" }}>
-          {props.data
-            ? props.data.map((d, i) => (
-                <div
-                  key={`${d.name}-${i}`}
-                  className="col-md-4"
-                  style={{ height: 450, maxWidth: 400, margin: "auto" }}
-                >
-                  <img
-                    src={d.img}
-                    className="img-circle"
-                    alt="Customer Feedback"
-                    style={{ width: 200, height: 200 }}
-                  />
-                  <h3>{d.name}</h3>
-                  <h5>{d.role}</h5>
-                  <p>{d.text}</p>
-                </div>
-              ))
-            : "loading"}
-        </div>
+      <div style={{ textAlign: "center", width: 500, margin: "auto" }}>
+        <Carousel navButtonsAlwaysVisible={true}>
+          {props?.data?.map((d, i) => (
+            <Testimonial key={`${d.name}-${i}`} data={d} />
+          ))}
+        </Carousel>
       </div>
     </div>
   );
 };
+
+function Testimonial({ data }) {
+  return (
+    <div style={{ height: 400, maxWidth: 400, margin: "auto" }}>
+      <img
+        src={data.img}
+        className="img-circle"
+        alt="Customer Feedback"
+        style={{ width: 200, height: 200 }}
+      />
+      <h3>{data.name}</h3>
+      <h5>{data.role}</h5>
+      <p>{data.text}</p>
+    </div>
+  );
+}
