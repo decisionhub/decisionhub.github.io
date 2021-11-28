@@ -43,22 +43,32 @@
     {
       "img": "img/testimonials/dan_collens.jpg",
       "text": "I liked [DecisionHub] a lot. I didn't think I would really care about the improvements... but it was a lot more enjoyable to use.",
-      "name": "Dan Collens, Cofounder at OurGroceries, Inc."
+      "name": "Dan Collens",
+      "role": "Cofounder at OurGroceries, Inc."
     },
     {
       "img": "img/testimonials/rose_greenside.jpg",
       "text": "Saved 1000s of hours of reviewers time.",
-      "name": "Rose Greenside, Executive Director at Social Venture Partners"
+      "name": "Rose Greenside",
+      "role": "Executive Director at Social Venture Partners"
+    },
+    {
+      "img": "img/testimonials/matthew_bender.png",
+      "text": "I just submitted [an] application to the general fund and the process was quite slick through the DecisionHub. Appreciate the work done to streamline the process, I find it works well.",
+      "name": "Matthew Isert Bender",
+      "role": "Executive Director at Interfaith Community Counselling Centre"
     },
     {
       "img": "img/testimonials/barbara_hill.jpg",
       "text": "Way easier than what we were using before.",
-      "name": "Barbara Hill, former Director at KidsAbility"
+      "name": "Barbara Hill",
+      "role": "Former Director at KidsAbility"
     },
     {
       "img": "img/testimonials/default.jpg",
       "text": "Very simple and easy to use.",
-      "name": "Jane Arnold, board member for SVP and Canadian Cancer Society"
+      "name": "Jane Arnold",
+      "role": "Board member for SVP and Canadian Cancer Society"
     }
   ],
   "ExecTeam": [
