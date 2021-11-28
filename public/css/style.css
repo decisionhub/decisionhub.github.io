@@ -439,7 +439,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-  padding-top: 100px;
+  padding: 100px 0;
   background: #f6f6f6;
 }
 #testimonials i {
