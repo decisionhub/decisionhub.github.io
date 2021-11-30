@@ -1,6 +1,6 @@
 export const Videos = (props) => {
   return (
-    <div id="team" className="text-center">
+    <div id="testimonials" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Customer Testimonials</h2>
