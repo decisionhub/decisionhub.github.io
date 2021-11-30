@@ -25,7 +25,7 @@ export const Features = (props) => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/rRWAQRkRQLQ"
+            src="https://www.youtube.com/embed/ivCk8-kwKyw"
             title="YouTube video player, DecisionHub demo"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
