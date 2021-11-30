@@ -20,6 +20,18 @@ export const Features = (props) => {
               ))
             : "Loading..."}
         </div>
+        <div className="col-md-8 col-md-offset-2 section-title">
+          <h2 style={{ marginTop: 60 }}>Demo</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ivCk8-kwKyw"
+            title="YouTube video player, DecisionHub demo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
       </div>
     </div>
   );
