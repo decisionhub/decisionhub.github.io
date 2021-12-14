@@ -28,7 +28,6 @@ export const Contact = (props) => {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-custom btn-lg page-scroll"
-              rel="noreferrer"
               style={{ marginTop: 20 }}
             >
               <span style={{ color: "white" }}>Book Meeting</span>
