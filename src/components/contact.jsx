@@ -39,18 +39,30 @@ export const Contact = (props) => {
         </div>
         <ul>
           <li>
-            <a href={props.data ? "mailto:" + props.data.email : "/"}>
-              <i className="fa fa-envelope"></i>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.data ? "mailto:" + props.data.email : "/"}
+            >
+              <i className="fa fa-envelope" />
             </a>
           </li>
           <li>
-            <a href={props.data ? props.data.twitter : "/"}>
-              <i className="fa fa-twitter"></i>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.data ? props.data.twitter : "/"}
+            >
+              <i className="fa fa-twitter" />
             </a>
           </li>
           <li>
-            <a href={props.data ? props.data.linkedin : "/"}>
-              <i className="fa fa-linkedin"></i>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.data ? props.data.linkedin : "/"}
+            >
+              <i className="fa fa-linkedin" />
             </a>
           </li>
         </ul>
