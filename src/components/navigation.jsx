@@ -65,6 +65,7 @@ export const Navigation = () => {
               <Button
                 href="https://app.decisionhub.org/signup"
                 target="_blank"
+                rel="noopener noreferrer"
                 variant="contained"
                 style={{
                   backgroundColor: "#5ca9fb",
@@ -84,6 +85,7 @@ export const Navigation = () => {
               <Button
                 href="https://app.decisionhub.org/login"
                 target="_blank"
+                rel="noopener noreferrer"
                 variant="contained"
                 style={{
                   background: "white",

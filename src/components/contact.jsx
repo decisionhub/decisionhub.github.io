@@ -26,6 +26,7 @@ export const Contact = (props) => {
             <a
               href="https://calendly.com/decisionhub"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-custom btn-lg page-scroll"
               rel="noreferrer"
               style={{ marginTop: 20 }}
