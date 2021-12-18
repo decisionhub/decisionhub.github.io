@@ -53,7 +53,11 @@ export const Team = (props) => {
         </LargerTeam>
         <p>
           We are also working with{" "}
-          <a href="https://igslimited.ca/" target="_blank" rel="noreferrer">
+          <a
+            href="https://igslimited.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             IGS Limited
           </a>
           , who help with our sales and marketing.
