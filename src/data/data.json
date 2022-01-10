@@ -39,6 +39,23 @@
       "text": "Throughout the review process, there is a full admin portal allowing organization admins to track progress of reviewers and view & export the final aggregated review data."
     }
   ],
+  "Pricing": [
+    {
+      "icon": "fa fa-user",
+      "name": "Silver Plan",
+      "text": "Basic access into the DecisionHub platform, able to create a program and get started on making better decisions."
+    },
+    {
+      "icon": "fa fa-user-plus",
+      "name": "Gold Plan",
+      "text": "Privileged access to the DecisionHub platform, able to create multiple programs and customize forms."
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "Platinum Plan",
+      "text": "Highest level of access to the DecisionHub platform, able to create many programs, customize forms, and have large number of reviewers and admins on the platform!"
+    }
+  ],
   "Testimonials": [
     {
       "img": "img/testimonials/dan_collens.jpg",

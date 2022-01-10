@@ -388,6 +388,69 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+/* Pricing Sectin */
+#pricing {
+  padding: 100px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+}
+#pricing .pricing-desc {
+  margin: 30px 30px 20px;
+}
+#pricing h2 {
+  color: #fff;
+}
+#pricing .section-title h2::after {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+#pricing i.fa {
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  padding: 40px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#pricing i.far {
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  padding: 40px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#pricing i.fas {
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  padding: 40px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#pricing h3 {
+  font-weight: 500;
+  padding: 5px 0;
+  color: #fff;
+}
+#pricing p {
+  color: rgba(255, 255, 255, 0.75);
+}
+#pricing .pricing-desc {
+  margin-bottom: 40px;
+}
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -615,7 +678,7 @@ label {
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: 30px 0;
+  padding: 60px 0 30px 0;
 }
 #footer p {
   color: #888;
