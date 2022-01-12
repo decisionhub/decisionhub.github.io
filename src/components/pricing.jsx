@@ -1,4 +1,4 @@
-export const Pricing = (props) => {
+export const Pricing = () => {
   return (
     <div id="pricing" className="text-center">
       <div className="container">
@@ -10,18 +10,11 @@ export const Pricing = (props) => {
           </p>
         </div>
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-xs-12 col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="pricing-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.text}</p>
-                  </div>
-                </div>
-              ))
-            : "loading"}
+          <img
+            src="img/pricing.png"
+            alt="Pricing Plan"
+            style={{ maxWidth: 800, width: "--webkit-fill-available" }}
+          />
         </div>
       </div>
     </div>

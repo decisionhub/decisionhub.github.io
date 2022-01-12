@@ -34,7 +34,7 @@ const App = () => {
       </div>
       <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
-      <Pricing data={landingPageData.Pricing} />
+      <Pricing />
       <Team execTeam={landingPageData.ExecTeam} team={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
