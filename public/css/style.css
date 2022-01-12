@@ -439,8 +439,16 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-  padding: 100px 0;
+  padding-top: 100px;
   background: #f6f6f6;
+}
+#testimonials-continued {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background: #f6f6f6;
+}
+#testimonials .section-title {
+  margin-bottom: 20px;
 }
 #testimonials i {
   color: #e6e6e6;
