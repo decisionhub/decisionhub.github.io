@@ -5,7 +5,7 @@ export const Videos = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Customer Testimonials</h2>
           <p>
-            Hear what our clients have to say about DecisionHub in these videos!
+            Hear what our clients have to say about DecisionHub in this video!
           </p>
         </div>
         {props.data
