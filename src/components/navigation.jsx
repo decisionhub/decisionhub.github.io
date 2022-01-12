@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 const ScrollBar = styled.img`
   height: 60px;
   padding: 0px;
-  margin-top: -20px;
+  margin-top: -15px;
 `;
 
 export const Navigation = () => {
