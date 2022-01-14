@@ -112,22 +112,27 @@
     {
       "icon": "fa fa-comments-o",
       "title": "Forms Creation",
-      "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types."
+      "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types, brand customization and custom links to send to applicants."
     },
     {
       "icon": "fa fa-envelope-o",
       "title": "Forms Submission",
-      "text": "Applicants can go to a link without logging in and apply to a form, automatically piping the data to the internal platform."
+      "text": "Applicants apply via a link (without logging in if they choose). Applicants enjoy a wide range of features like saving and editing submissions, autofilling answers (if they are a repeat applicant) and the ability to view and download PDFs of all past submitted applications."
     },
     {
       "icon": "fa fa-group",
       "title": "Review Tool",
-      "text": "Committee review members can log into the platform and perform independent, unbiased, reviews on all applications within the round."
+      "text": "Committee review members can log into the platform and perform independent, unbiased, reviews on all applications within the round. They will only see applications assigned to them"
     },
     {
       "icon": "fa fa-magic",
       "title": "Aggregated Data",
-      "text": "Admins can view aggregated review data from all reviewers on an admin portal to help guide the final decision making process."
+      "text": "Admins can view aggregated review data on an admin portal to help guide the final decision making process. All data (including comments) can be exported in csv format and with one button you can download all applications in separate PDFs stored in one folder"
+    },
+    {
+      "icon": "fa fa-desktop",
+      "title": "Admin Dashboard",
+      "text": "Admins are provided with a wide range of tools including User Management, Multiple Statistics Pages, Assigning Reviewers, Form Management and Export Options"
     }
   ]
 }
