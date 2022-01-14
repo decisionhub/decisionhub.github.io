@@ -10,6 +10,7 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div
                   key={`${d.title}-${i}`}
+                  style={{ width: "20%" }}
                   className="col-xs-12 col-sm-6 col-md-6"
                 >
                   {" "}
