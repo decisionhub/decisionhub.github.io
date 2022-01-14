@@ -95,7 +95,7 @@ hr {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 10px 0 10px;
+  margin: 9px 20px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -388,28 +388,6 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Pricing Section */
-#pricing {
-  padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
-}
-#pricing h2 {
-  color: #fff;
-}
-#pricing .section-title h2::after {
-  position: absolute;
-  content: "";
-  background: rgba(255, 255, 255, 0.3);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  margin-left: -30px;
-  left: 50%;
-}
-#pricing p {
-  color: rgba(255, 255, 255, 0.75);
-}
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -461,16 +439,8 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-  padding-top: 100px;
+  padding: 100px 0;
   background: #f6f6f6;
-}
-#testimonials-continued {
-  padding-top: 30px;
-  padding-bottom: 100px;
-  background: #f6f6f6;
-}
-#testimonials .section-title {
-  margin-bottom: 20px;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -645,7 +615,7 @@ label {
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: 60px 0 30px 0;
+  padding: 30px 0;
 }
 #footer p {
   color: #888;
