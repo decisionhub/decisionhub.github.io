@@ -1,3 +1,5 @@
+import { height } from "@mui/system";
+
 export const Features = (props) => {
   return (
     <div id="features" className="text-center">
@@ -10,8 +12,8 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div
                   key={`${d.title}-${i}`}
-                  style={{ width: "20%" }}
-                  className="col-xs-12 col-sm-6 col-md-6"
+                  style={{ minHeight: 300 }}
+                  className="col-xs-12 col-sm-6 col-md-3"
                 >
                   {" "}
                   <i className={d.icon}></i>
