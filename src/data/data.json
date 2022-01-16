@@ -25,18 +25,18 @@
   "Services": [
     {
       "icon": "fa fa-comments-o",
-      "name": "Forms Tool",
-      "text": "Full form functionality including creating forms with various question types, generating a custom link to send to applicants, and allowing applicants to apply via the link."
+      "name": "Customer Support",
+      "text": "We pride ourselves on excellent customer support with fast response times"
     },
     {
-      "icon": "fa fa-folder-open",
-      "name": "Review Tool",
-      "text": "Customizable decision matrix controlled by the admins that allows the reviewers of the decision process to log into the platform and make independent and unbiased decisions."
+      "icon": "fa fa-usd",
+      "name": "Most Affordable",
+      "text": "Decisionhub is one of the cheapest options on the market"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Admin Portal",
-      "text": "Throughout the review process, there is a full admin portal allowing organization admins to track progress of reviewers and view & export the final aggregated review data."
+      "icon": "fa fa-code",
+      "name": "Custom Features",
+      "text": "We love to improve our product and will build small features and fix bugs for free and larger features for a fee"
     }
   ],
   "Videos": [
@@ -112,22 +112,22 @@
     {
       "icon": "fa fa-comments-o",
       "title": "Forms Creation",
-      "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types."
+      "text": "Organization admins can create and publish an online form for applicants to apply to with various different question types, brand customization and custom links to send to applicants."
     },
     {
       "icon": "fa fa-envelope-o",
       "title": "Forms Submission",
-      "text": "Applicants can go to a link without logging in and apply to a form, automatically piping the data to the internal platform."
+      "text": "Applicants apply via a link (without logging in if they choose). Applicants enjoy a wide range of features like saving and editing submissions, autofilling answers (if they are a repeat applicant) and the ability to view and download PDFs of all past submitted applications."
     },
     {
       "icon": "fa fa-group",
       "title": "Review Tool",
-      "text": "Committee review members can log into the platform and perform independent, unbiased, reviews on all applications within the round."
+      "text": "Review members can log into the platform and perform independent, unbiased, reviews on all applications within the round. They will only see applications assigned to them"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Aggregated Data",
-      "text": "Admins can view aggregated review data from all reviewers on an admin portal to help guide the final decision making process."
+      "icon": "fa fa-desktop",
+      "title": "Admin Tools",
+      "text": "Admins are provided with a wide range of tools including User Management, Multiple Statistics Pages, Assigning Reviewers, Form Management and Export Options. All data (including comments) can be exported in csv format and with one button you can download all applications in separate PDFs stored in one folder"
     }
   ]
 }
