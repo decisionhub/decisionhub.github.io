@@ -43,6 +43,7 @@ export const Contact = (props) => {
               target="_blank"
               rel="noopener noreferrer"
               href={props.data ? "mailto:" + props.data.email : "/"}
+              style={{ border: "none" }}
             >
               <i className="fa fa-envelope" />
             </a>
@@ -52,6 +53,7 @@ export const Contact = (props) => {
               target="_blank"
               rel="noopener noreferrer"
               href={props.data ? props.data.twitter : "/"}
+              style={{ border: "none" }}
             >
               <i className="fa fa-twitter" />
             </a>
@@ -61,8 +63,19 @@ export const Contact = (props) => {
               target="_blank"
               rel="noopener noreferrer"
               href={props.data ? props.data.linkedin : "/"}
+              style={{ border: "none" }}
             >
               <i className="fa fa-linkedin" />
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.data ? props.data.medium : "/"}
+              style={{ border: "none" }}
+            >
+              <i className="fa fa-medium"></i>
             </a>
           </li>
         </ul>
