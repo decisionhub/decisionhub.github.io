@@ -12,6 +12,7 @@ import { Contact } from "./components/contact";
 import { Pricing } from "./components/pricing";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,21 +26,52 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <div id="about">
-        <About data={landingPageData.About} />
-        <OurGoal data={landingPageData.OurGoal} />
+    <Router>
+      <div>
+        <Navigation />
+        <Routes>
+          <Route
+            path="/about"
+            element={
+              <div id="about">
+                <About data={landingPageData.About} />
+                <OurGoal data={landingPageData.OurGoal} />
+              </div>
+            }
+          />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route
+            path="/team"
+            element={
+              <Team
+                execTeam={landingPageData.ExecTeam}
+                team={landingPageData.Team}
+              />
+            }
+          />
+          <Route
+            path="/testimonials"
+            element={
+              <div>
+                <Videos data={landingPageData.Videos} />
+                <Testimonials data={landingPageData.Testimonials} />
+              </div>
+            }
+          />
+          <Route
+            path="/"
+            element={
+              <div>
+                <Header data={landingPageData.Header} />
+                <Features data={landingPageData.Features} />
+                <Services data={landingPageData.Services} />
+                <Contact data={landingPageData.Contact} />
+              </div>
+            }
+          />
+        </Routes>
       </div>
-      <Services data={landingPageData.Services} />
-      <Videos data={landingPageData.Videos} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Pricing />
-      <Team execTeam={landingPageData.ExecTeam} team={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+    </Router>
   );
 };
 
