@@ -31,7 +31,7 @@ const App = () => {
         <Navigation />
         <Routes>
           <Route
-            path="/about"
+            path="/mission"
             element={
               <div id="about">
                 <About data={landingPageData.About} />

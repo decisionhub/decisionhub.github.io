@@ -5,7 +5,7 @@ export const OurGoal = (props) => {
         <div className="row">
           <div className="col-xs-12">
             <div className="about-text">
-              <h3>Our Goal</h3>
+              <h3>Our Mission</h3>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Why Choose Us?</h3>
               <div className="list-style">
