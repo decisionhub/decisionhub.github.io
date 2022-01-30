@@ -11,7 +11,9 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <h2 style={{ marginTop: 60 }}>Welcome to Decisionhub</h2>
+                <h2 style={{ marginTop: 80, textTransform: "none" }}>
+                  Introducing DecisionHub
+                </h2>
                 <iframe
                   width="560"
                   height="315"
@@ -22,6 +24,17 @@ export const Header = (props) => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
+                <div>
+                  <a
+                    href="https://calendly.com/decisionhub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{ marginTop: 40 }}
+                  >
+                    <span style={{ color: "white" }}>Book a Consultation</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
