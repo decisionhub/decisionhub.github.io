@@ -1,13 +1,3 @@
-import styled from "styled-components";
-
-const ExecTeam = styled.div`
-  width: 60%;
-`;
-
-const LargerTeam = styled.div`
-  width: 60%;
-`;
-
 export const Team = (props) => {
   return (
     <div id="team" className="text-center">
@@ -19,11 +9,14 @@ export const Team = (props) => {
             here.
           </p>
         </div>
-        <ExecTeam className="container" id="row">
+        <div className="container" id="row">
           {props.execTeam
             ? props.execTeam.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-sm-6 team">
-                  <div className="thumbnail">
+                  <div
+                    className="thumbnail"
+                    style={i % 2 === 0 ? { float: "right" } : { float: "left" }}
+                  >
                     {" "}
                     <img src={d.img} alt="Team Member" className="team-img" />
                     <div className="caption">
@@ -34,12 +27,15 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </ExecTeam>
-        <LargerTeam className="container" id="row">
+        </div>
+        <div className="container" id="row">
           {props.team
             ? props.team.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-sm-6 team">
-                  <div className="thumbnail">
+                  <div
+                    className="thumbnail"
+                    style={i % 2 === 0 ? { float: "right" } : { float: "left" }}
+                  >
                     {" "}
                     <img src={d.img} alt="Team Member" className="team-img" />
                     <div className="caption">
@@ -50,7 +46,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </LargerTeam>
+        </div>
         <p>
           We are also working with{" "}
           <a
