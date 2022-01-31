@@ -12,7 +12,7 @@ export const Team = (props) => {
         <div className="container" id="row">
           {props.execTeam
             ? props.execTeam.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="col-sm-6 col-xs-12 team">
                   <div
                     className="thumbnail"
                     style={i % 2 === 0 ? { float: "right" } : { float: "left" }}
@@ -31,7 +31,7 @@ export const Team = (props) => {
         <div className="container" id="row">
           {props.team
             ? props.team.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="col-sm-6 col-xs-12 team">
                   <div
                     className="thumbnail"
                     style={i % 2 === 0 ? { float: "right" } : { float: "left" }}
