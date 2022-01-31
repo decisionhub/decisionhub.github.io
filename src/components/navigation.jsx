@@ -25,7 +25,7 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <ScrollBar src="img/dh_logo_full.png" alt="Decision Hub Logo" />
+            <ScrollBar src="img/dh_logo_full.svg" alt="Decision Hub Logo" />
           </a>{" "}
         </div>
 

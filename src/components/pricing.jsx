@@ -11,7 +11,7 @@ export const Pricing = () => {
         </div>
         <div className="row">
           <img
-            src="img/pricing.png"
+            src="img/pricing.svg"
             alt="Pricing Plan"
             style={{ maxWidth: 800, width: "--webkit-fill-available" }}
           />
