@@ -1,20 +1,31 @@
 # DecisionHub
 
-Website for the DecisionHub company.
+DecisionHub Website Repository. View the website [here](https://decisionhub.org/).
 
 ---
 
 ## About DecisionHub
 
-This web app (DecisionHub) is a review tool built for non-profit organizations. It is used to help non-profits make decisions on how to allocate grant funding and currently has a 3 part-process:
+DecisionHub provides organizations a tool to run their decision making processes. Some of the key features are as follows:
 
-1. The non-profit releases an application and DecisionHub collects the responses
-2. A group of reviewers, usually community leaders, picked by the non-profit are then asked to rate and rank the applications
-3. DecisionHub provides dashboards to visualize the review rate, the average rating and the average ranking of each application
+1. Creating a customized form, with your own logo and branding, with a variety of question types
+2. Generate a unique link to send to applicants, in which they apply to your form
+3. Applicants can save and revisit previously submitted forms (if they create an account with us)
+4. Conduct a review cycle efficiently, saving hundreds of hours
+5. Eliminate the 5 most common biases that occur when making application decisions, read more [here](https://decisionhub.medium.com/5-biases-organizations-are-guilty-of-when-making-application-decisions-23dc183bee5b)
+6. Analyze and export data at the clikc of a button
 
 ### Team
 
 Co-founders: [Greg Maxin](https://github.com/GodGreg), [Ahmed Hamodi](https://github.com/ahmedhamodi)
+
+### Next Steps
+
+If you want to learn more about us, view our website [here](https://decisionhub.org/).
+
+If you want to book a consultation meeting, please do so [here](https://calendly.com/decisionhub).
+
+For any other inquiries, please email us at [support@decisionhub.org](mailto:support@decisionhub.org).
 
 ---
 
@@ -26,4 +37,4 @@ Co-founders: [Greg Maxin](https://github.com/GodGreg), [Ahmed Hamodi](https://gi
 - 502 Applications Submitted
 - 2942 Reviews Completed
 - 88 Users
-- $2,646,000+ in Funding Allocated to Charities in the Waterloo Region
+- \$2,646,000+ in Funding Allocated to Charities in the Waterloo Region
