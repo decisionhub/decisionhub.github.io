@@ -26,15 +26,3 @@ If you want to learn more about us, view our website [here](https://decisionhub.
 If you want to book a consultation meeting, please do so [here](https://calendly.com/decisionhub).
 
 For any other inquiries, please email us at [support@decisionhub.org](mailto:support@decisionhub.org).
-
----
-
-## Usage Stats
-
-### Usage
-
-- 18 Grant Application Rounds Supported
-- 502 Applications Submitted
-- 2942 Reviews Completed
-- 88 Users
-- \$2,646,000+ in Funding Allocated to Charities in the Waterloo Region
