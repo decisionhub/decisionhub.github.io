@@ -2,6 +2,8 @@
 
 DecisionHub Website Repository. View the website [here](https://decisionhub.org/).
 
+---
+
 ## About DecisionHub
 
 DecisionHub provides organizations a tool to run their decision making processes. Some of the key features are as follows:
