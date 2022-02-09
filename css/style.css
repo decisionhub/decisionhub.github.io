@@ -346,10 +346,11 @@ header .intro-text {
     display: inline;
   }
   #about1 {
-    margin-top: 50px;
+    margin-top: 150px;
   }
   #about2 {
     margin-bottom: 50px;
+    float: left;
   }
 }
 /* Services Section */
