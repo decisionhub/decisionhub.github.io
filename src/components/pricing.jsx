@@ -12,7 +12,7 @@ export const Pricing = () => {
         <div className="container-fluid">
           <div className="container" style={{ width: "100%", maxWidth: 1000 }}>
             <div className="row">
-              <div className="col-sm-4">
+              <div className="col-sm-4" style={{ paddingBottom: 50 }}>
                 <div className="card text-center">
                   <div className="title">
                     <i className="fa fa-paper-plane" aria-hidden="true"></i>
@@ -50,7 +50,7 @@ export const Pricing = () => {
                 </div>
               </div>
 
-              <div className="col-sm-4">
+              <div className="col-sm-4" style={{ paddingBottom: 50 }}>
                 <div className="card text-center">
                   <div className="title">
                     <i className="fa fa-plane" aria-hidden="true"></i>
@@ -88,7 +88,7 @@ export const Pricing = () => {
                 </div>
               </div>
 
-              <div className="col-sm-4">
+              <div className="col-sm-4" style={{ paddingBottom: 50 }}>
                 <div className="card text-center">
                   <div className="title">
                     <i className="fa fa-rocket" aria-hidden="true"></i>
@@ -128,7 +128,7 @@ export const Pricing = () => {
             </div>
           </div>
         </div>
-        <p style={{ paddingTop: 70 }}>
+        <p style={{ paddingTop: 20 }}>
           Need a <b>custom</b> plan?{" "}
           <a href="mailto:support@decisionhub.org">
             <span>Contact Us!</span>
