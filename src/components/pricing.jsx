@@ -129,11 +129,13 @@ export const Pricing = () => {
           </div>
         </div>
         <p style={{ paddingTop: 20 }}>
-          Need a <b>custom</b> plan?{" "}
+          If you are a non-profit organization, a social enterprise, or need a{" "}
+          <b>custom</b> plan, please{" "}
           <a href="mailto:support@decisionhub.org">
-            <span>Contact Us!</span>
+            <span>contact us</span>!
           </a>
         </p>
+        <p>We are happy to build a customized plan that fits your needs.</p>
       </div>
     </div>
   );
