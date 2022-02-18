@@ -10,6 +10,7 @@ import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/team";
 import { Contact } from "./components/contact";
 import { Pricing } from "./components/pricing";
+import { NotFound } from "./components/notfound";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -27,50 +28,77 @@ const App = () => {
 
   return (
     <Router>
-      <div>
-        <Navigation />
-        <Routes>
-          <Route
-            path="/mission"
-            element={
+      <Routes>
+        <Route
+          exact
+          path="/mission"
+          element={
+            <div>
+              <Navigation />
               <div id="about">
                 <About data={landingPageData.About} />
                 <OurGoal data={landingPageData.OurGoal} />
               </div>
-            }
-          />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route
-            path="/team"
-            element={
-              <Team
-                execTeam={landingPageData.ExecTeam}
-                team={landingPageData.Team}
-              />
-            }
-          />
-          <Route
-            path="/testimonials"
-            element={
+            </div>
+          }
+        />
+        <Route
+          exact
+          path="/pricing"
+          element={
+            <div>
+              <Navigation />
+              <div>
+                <Pricing />
+              </div>
+            </div>
+          }
+        />
+        <Route
+          exact
+          path="/team"
+          element={
+            <div>
+              <Navigation />
+              <div>
+                <Team
+                  execTeam={landingPageData.ExecTeam}
+                  team={landingPageData.Team}
+                />
+              </div>
+            </div>
+          }
+        />
+        <Route
+          exact
+          path="/testimonials"
+          element={
+            <div>
+              <Navigation />
               <div>
                 <Videos data={landingPageData.Videos} />
                 <Testimonials data={landingPageData.Testimonials} />
               </div>
-            }
-          />
-          <Route
-            path="/"
-            element={
+            </div>
+          }
+        />
+        <Route
+          exact
+          path="/"
+          element={
+            <div>
+              <Navigation />
               <div>
                 <Header data={landingPageData.Header} />
                 <Features data={landingPageData.Features} />
                 <Services data={landingPageData.Services} />
                 <Contact data={landingPageData.Contact} />
               </div>
-            }
-          />
-        </Routes>
-      </div>
+            </div>
+          }
+        />
+        <Route exact path="/*" element={<NotFound />} />
+      </Routes>
     </Router>
   );
 };
