@@ -400,16 +400,13 @@ header .intro-text {
 #pricing {
   padding-top: 150px;
   padding-bottom: 100px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
 }
 #pricing h2 {
-  color: #fff;
+  color: #000;
 }
 #pricing .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -417,7 +414,7 @@ header .intro-text {
   left: 50%;
 }
 #pricing p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #888;
 }
 /* Portfolio Section */
 #portfolio {
@@ -671,4 +668,108 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+#pricing .card {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  background: linear-gradient(-45deg, #fe0847, #feae3f);
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#pricing .card:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#pricing .col-sm-4:nth-child(1) .card,
+#pricing .col-sm-4:nth-child(1) .card .title .fa {
+  background: linear-gradient(-45deg, #f403d1, #64b5f6);
+}
+#pricing .col-sm-4:nth-child(2) .card,
+#pricing .col-sm-4:nth-child(2) .card .title .fa {
+  background: linear-gradient(-45deg, #ffec61, #f321d7);
+}
+#pricing .col-sm-4:nth-child(3) .card,
+#pricing .col-sm-4:nth-child(3) .card .title .fa {
+  background: linear-gradient(-45deg, #24ff72, #9a4eff);
+}
+#pricing .card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  -webkit-transform: skewY(-5deg) scale(1.5);
+  transform: skewY(-5deg) scale(1.5);
+}
+#pricing .title .fa {
+  color: #fff;
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+#pricing .title h2 {
+  position: relative;
+  margin: 20px 0 0;
+  padding: 0;
+  color: #fff;
+  font-size: 28px;
+  z-index: 2;
+}
+#pricing .price,
+.option {
+  position: relative;
+  z-index: 2;
+}
+#pricing .price h4 {
+  margin: 0;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 60px;
+}
+#pricing .option ul {
+  margin: 0;
+  padding: 0;
+}
+#pricing .option ul li {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  font-size: 16px;
+}
+#pricing .card a {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  color: black;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+  margin: 20px auto 0;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+#pricing .card a:hover {
+  text-decoration: none;
 }
