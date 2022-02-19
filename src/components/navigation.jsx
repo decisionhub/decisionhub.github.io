@@ -70,7 +70,7 @@ export const Navigation = () => {
             </li>
             <li>
               <Button
-                href="https://app.decisionhub.org/signup"
+                href="https://calendly.com/decisionhub"
                 target="_blank"
                 rel="noopener noreferrer"
                 variant="contained"
@@ -80,6 +80,25 @@ export const Navigation = () => {
                     "linear-gradient(to right, #5ca9fb 0%, #6372ff 100%)",
                   borderRadius: "5px",
                   color: "white",
+                  textTransform: "capitalize",
+                  margin: 10,
+                  maxWidth: 140
+                }}
+              >
+                <span style={{ padding: 10 }}>Book Meeting</span>
+              </Button>
+            </li>
+            <li>
+              <Button
+                href="https://app.decisionhub.org/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="contained"
+                style={{
+                  background: "white",
+                  border: "1px solid black",
+                  borderRadius: "5px",
+                  color: "black",
                   textTransform: "capitalize",
                   margin: 10,
                   maxWidth: 80
