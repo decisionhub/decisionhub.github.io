@@ -25,7 +25,11 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <ScrollBar src="img/dh_logo_full.svg" alt="Decision Hub Logo" />
+            <ScrollBar
+              src="img/dh_logo_full.svg"
+              alt="Decision Hub Logo"
+              style={{ maxWidth: 225 }}
+            />
           </a>{" "}
         </div>
 
@@ -35,7 +39,10 @@ export const Navigation = () => {
           data-toggle="collapse"
           data-target=".navbar-collapse"
         >
-          <ul className="nav navbar-nav navbar-right">
+          <ul
+            className="nav navbar-nav navbar-right"
+            style={{ textAlign: "-webkit-center" }}
+          >
             <li>
               <a href="/" className="page-scroll">
                 Home
