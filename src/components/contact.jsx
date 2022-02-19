@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const GetStartedText = styled.div`
   width: 100%;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding: 0px 20px;
+  max-width: 820px;
+  margin: auto;
 `;
 
 export const Contact = (props) => {
@@ -13,7 +14,7 @@ export const Contact = (props) => {
         <GetStartedText>
           <div className="section-title">
             <h2>Get Started</h2>
-            <p style={{ maxWidth: 820, margin: "auto" }}>
+            <p>
               Ready to learn more about DecisionHub and how it can help your
               business make more informed group decisions? Click the button
               below or email us at{" "}

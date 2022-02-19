@@ -6,7 +6,14 @@ export const Testimonials = (props) => {
       <div className="section-title text-center">
         <h2>What our clients say</h2>
       </div>
-      <div style={{ textAlign: "center", width: 500, margin: "auto" }}>
+      <div
+        style={{
+          textAlign: "center",
+          maxWidth: 500,
+          margin: "auto",
+          padding: "0px 20px"
+        }}
+      >
         <Carousel navButtonsAlwaysVisible={true}>
           {props?.data?.map((d, i) => (
             <Testimonial key={`${d.name}-${i}`} data={d} />

@@ -12,7 +12,7 @@ export const Videos = (props) => {
           ? props.data.map((video, i) => (
               <iframe
                 key={i}
-                style={{ margin: 20 }}
+                style={{ margin: 20, maxWidth: "calc(100% - 40px)" }}
                 width="464"
                 height="261"
                 src={video.link}

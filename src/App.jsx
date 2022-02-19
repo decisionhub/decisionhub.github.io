@@ -88,7 +88,7 @@ const App = () => {
           element={
             <div>
               <Navigation />
-              <div>
+              <div style={{ minWidth: "fit-content" }}>
                 <Header data={landingPageData.Header} />
                 <Features data={landingPageData.Features} />
                 <Services data={landingPageData.Services} />

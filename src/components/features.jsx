@@ -36,6 +36,7 @@ export const Features = (props) => {
             <iframe
               width="672"
               height="378"
+              style={{ margin: 20, maxWidth: "calc(100% - 40px)" }}
               src="https://www.youtube.com/embed/ivCk8-kwKyw"
               title="YouTube video player, DecisionHub demo"
               frameBorder="0"

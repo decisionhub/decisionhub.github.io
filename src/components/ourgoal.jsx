@@ -1,6 +1,6 @@
 export const OurGoal = (props) => {
   return (
-    <div id="about2">
+    <div id="about2" style={{ paddingBottom: 20 }}>
       <div>
         <div className="row">
           <div className="col-xs-12">
