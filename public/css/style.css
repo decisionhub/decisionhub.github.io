@@ -680,7 +680,7 @@ label {
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 #pricing .card {
   position: relative;
-  max-width: 300px;
+  max-width: 450px;
   height: auto;
   background: linear-gradient(-45deg, #fe0847, #feae3f);
   border-radius: 15px;
@@ -695,16 +695,16 @@ label {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-#pricing .col-sm-4:nth-child(1) .card,
-#pricing .col-sm-4:nth-child(1) .card .title .fa {
+#pricing .col-md-4:nth-child(1) .card,
+#pricing .col-md-4:nth-child(1) .card .title .fa {
   background: linear-gradient(-45deg, #f403d1, #64b5f6);
 }
-#pricing .col-sm-4:nth-child(2) .card,
-#pricing .col-sm-4:nth-child(2) .card .title .fa {
+#pricing .col-md-4:nth-child(2) .card,
+#pricing .col-md-4:nth-child(2) .card .title .fa {
   background: linear-gradient(-45deg, #ffec61, #f321d7);
 }
-#pricing .col-sm-4:nth-child(3) .card,
-#pricing .col-sm-4:nth-child(3) .card .title .fa {
+#pricing .col-md-4:nth-child(3) .card,
+#pricing .col-md-4:nth-child(3) .card .title .fa {
   background: linear-gradient(-45deg, #24ff72, #9a4eff);
 }
 #pricing .card::before {
