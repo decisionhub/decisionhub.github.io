@@ -15,8 +15,8 @@ export const Header = (props) => {
                   Introducing DecisionHub
                 </h2>
                 <iframe
-                  width="560"
-                  height="315"
+                  width="854"
+                  height="480"
                   style={{ margin: 20, maxWidth: "calc(100% - 40px)" }}
                   src="https://www.youtube.com/embed/VLU5WalKpDM?autoplay=1"
                   title="YouTube video player"

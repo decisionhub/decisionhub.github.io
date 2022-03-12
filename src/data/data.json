@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Application Review Platform",
-    "paragraph": "An application review platform enabling organizations to collect, review, and make decisions in minutes."
+    "paragraph": "Enabling orgnaizations to collect, review and make unbiased decisions in minutes"
   },
   "About": {
     "paragraph": "DecisionHub is a digital end-to-end application review platform that allows organizations to easily make efficient and unbiased decisions involving multiple stakeholders.",
@@ -129,6 +129,28 @@
       "icon": "fa fa-desktop",
       "title": "Admin Tools",
       "text": "Admins are provided with a wide range of tools including User Management, Multiple Statistics Pages, Assigning Reviewers, Form Management and Export Options. All data (including comments) can be exported in csv format and with one button you can download all applications in separate PDFs stored in one folder"
+    }
+  ],
+  "Benefits": [
+    {
+      "icon": "fa fa-clock-o",
+      "title": "Save Time",
+      "text": "Organizations on average save 500 hours for each review cycle"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Remove Bias",
+      "text": "We're passionate about equitable and fair decisions so we've implemented many anti-bias features"
+    },
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Support",
+      "text": "We're available at the click of a button to answer your questions and help you navigate the platform"
+    },
+    {
+      "icon": "fa fa-code",
+      "title": "Custom Features",
+      "text": "We're constantly improving the product based on customer requests. Let us know how we can make your reivew process easier"
     }
   ]
 }

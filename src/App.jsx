@@ -2,9 +2,10 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
+import { Benefits } from "./components/Benefits";
 import { About } from "./components/about";
 import { OurGoal } from "./components/ourgoal";
-import { Services } from "./components/services";
+// import { Services } from "./components/services";
 import { Videos } from "./components/videos";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/team";
@@ -90,8 +91,9 @@ const App = () => {
               <Navigation />
               <div style={{ minWidth: "fit-content" }}>
                 <Header data={landingPageData.Header} />
+                <Benefits data={landingPageData.Benefits} />
                 <Features data={landingPageData.Features} />
-                <Services data={landingPageData.Services} />
+                {/* <Services data={landingPageData.Services} /> */}
                 <Contact data={landingPageData.Contact} />
               </div>
             </div>
