@@ -89,6 +89,43 @@ export const Navigation = () => {
               </Button>
             </li>
             <li>
+              <div className="dropdown">
+                <a
+                  className="btn btn-secondary dropdown-toggle"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <i className={""}></i>
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      rel="noopener noreferrer"
+                      href="https://app.decisionhub.org/signup"
+                    >
+                      Register
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      rel="noopener noreferrer"
+                      href="https://app.decisionhub.org/login"
+                    >
+                      Sign In
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            {/* <li>
               <Button
                 href="https://app.decisionhub.org/signup"
                 target="_blank"
@@ -98,6 +135,7 @@ export const Navigation = () => {
                   background: "white",
                   border: "1px solid black",
                   borderRadius: "5px",
+                  float: "right",
                   color: "black",
                   textTransform: "capitalize",
                   margin: 10,
@@ -116,6 +154,7 @@ export const Navigation = () => {
                 style={{
                   background: "white",
                   border: "1px solid black",
+                  float: "right",
                   borderRadius: "5px",
                   color: "black",
                   textTransform: "capitalize",
@@ -125,7 +164,7 @@ export const Navigation = () => {
               >
                 <span style={{ padding: 10 }}>Sign In</span>
               </Button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
