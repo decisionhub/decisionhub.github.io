@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Button from "@material-ui/core/Button";
+import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
 
 const ScrollBar = styled.img`
   height: 60px;
@@ -24,13 +25,51 @@ export const Navigation = () => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            <ScrollBar
-              src="img/dh_logo_full.svg"
-              alt="Decision Hub Logo"
-              style={{ maxWidth: 225 }}
-            />
-          </a>{" "}
+          <div className="dropdown" style={{ width: "fit-content" }}>
+            <a className="navbar-brand page-scroll" href="#page-top">
+              <ScrollBar
+                src="img/dh_logo_full.svg"
+                alt="Decision Hub Logo"
+                style={{ maxWidth: 225 }}
+              />
+            </a>
+            <a
+              className="btn btn-secondary dropdown-toggle"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              data-target="#bs-example-navbar-dropdown-1"
+              aria-expanded="false"
+              style={{ padding: "5px 0px" }}
+            >
+              <ArrowDropDownCircleIcon style={{ width: 40, height: 40 }} />
+            </a>
+            <i className={""}></i>
+            <ul
+              className="dropdown-menu"
+              aria-labelledby="dropdownMenuLink"
+              id="#bs-example-navbar-dropdown-1"
+            >
+              <li>
+                <a
+                  className="dropdown-item"
+                  rel="noopener noreferrer"
+                  href="https://app.decisionhub.org/signup"
+                >
+                  Register
+                </a>
+              </li>
+              <li>
+                <a
+                  className="dropdown-item"
+                  rel="noopener noreferrer"
+                  href="https://app.decisionhub.org/login"
+                >
+                  Sign In
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div
@@ -88,7 +127,7 @@ export const Navigation = () => {
                 <span style={{ padding: 10 }}>Book Meeting</span>
               </Button>
             </li>
-            <li>
+            {/* <li>
               <Button
                 href="https://app.decisionhub.org/signup"
                 target="_blank"
@@ -98,6 +137,7 @@ export const Navigation = () => {
                   background: "white",
                   border: "1px solid black",
                   borderRadius: "5px",
+                  float: "right",
                   color: "black",
                   textTransform: "capitalize",
                   margin: 10,
@@ -116,6 +156,7 @@ export const Navigation = () => {
                 style={{
                   background: "white",
                   border: "1px solid black",
+                  float: "right",
                   borderRadius: "5px",
                   color: "black",
                   textTransform: "capitalize",
@@ -125,7 +166,7 @@ export const Navigation = () => {
               >
                 <span style={{ padding: 10 }}>Sign In</span>
               </Button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -23,7 +23,8 @@ export const Features = (props) => {
           </div>
         </div>
       </div>
-      <div id="features-continued" className="text-center">
+      {/*Removed for now*/}
+      {/* <div id="features-continued" className="text-center">
         <div className="container">
           <div className="col-md-8 col-md-offset-2 section-title">
             <div className="section-title">
@@ -45,7 +46,7 @@ export const Features = (props) => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
