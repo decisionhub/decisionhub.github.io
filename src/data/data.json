@@ -93,6 +93,16 @@
   ],
   "Team": [
     {
+      "img": "img/team/amira.jpeg",
+      "name": "Amira Taneja",
+      "job": "Acquisition Specialist"
+    },
+    {
+      "img": "img/team/filip.jpeg",
+      "name": "Filip Martinovic",
+      "job": "Acquisition Specialist"
+    },
+    {
       "img": "img/team/hyunzee.jpg",
       "name": "Hyunzee Kim",
       "job": "Developer"

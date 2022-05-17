@@ -31,7 +31,10 @@ export const Team = (props) => {
         <div className="container" id="row">
           {props.team
             ? props.team.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-sm-6 col-xs-12 team">
+                <div
+                  key={`${d.name}-${i}`}
+                  className="col-md-3 col-sm-6 col-xs-12 team"
+                >
                   <div
                     className="thumbnail"
                     style={i % 2 === 0 ? { float: "right" } : { float: "left" }}
@@ -47,17 +50,6 @@ export const Team = (props) => {
               ))
             : "loading"}
         </div>
-        <p>
-          We are also working with{" "}
-          <a
-            href="https://igslimited.ca/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            IGS Limited
-          </a>
-          , who help with our sales and marketing.
-        </p>
       </div>
     </div>
   );
