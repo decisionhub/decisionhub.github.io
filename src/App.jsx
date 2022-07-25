@@ -12,6 +12,7 @@ import { Team } from "./components/team";
 import { Contact } from "./components/contact";
 import { Pricing } from "./components/pricing";
 import { NotFound } from "./components/notfound";
+import { HubspotContactForm } from "./components/hubspotcontactform";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -79,6 +80,11 @@ const App = () => {
               <div>
                 <Videos data={landingPageData.Videos} />
                 <Testimonials data={landingPageData.Testimonials} />
+                <HubspotContactForm
+                  region="na1"
+                  portalId="21553264"
+                  formId="fd7d0c4d-0024-49b5-9877-19969a40822a"
+                />
               </div>
             </div>
           }
