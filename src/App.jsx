@@ -80,11 +80,7 @@ const App = () => {
               <div>
                 <Videos data={landingPageData.Videos} />
                 <Testimonials data={landingPageData.Testimonials} />
-                <HubspotContactForm
-                  region="na1"
-                  portalId="21553264"
-                  formId="fd7d0c4d-0024-49b5-9877-19969a40822a"
-                />
+                <HubspotContactForm />
               </div>
             </div>
           }
@@ -97,6 +93,7 @@ const App = () => {
               <Navigation />
               <div style={{ minWidth: "fit-content" }}>
                 <Header data={landingPageData.Header} />
+                <HubspotContactForm />
                 <Benefits data={landingPageData.Benefits} />
                 <Features data={landingPageData.Features} />
                 {/* <Services data={landingPageData.Services} /> */}
