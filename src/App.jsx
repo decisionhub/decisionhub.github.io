@@ -12,6 +12,7 @@ import { Team } from "./components/team";
 import { Contact } from "./components/contact";
 import { Pricing } from "./components/pricing";
 import { NotFound } from "./components/notfound";
+import { HubspotContactForm } from "./components/hubspotcontactform";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -79,6 +80,7 @@ const App = () => {
               <div>
                 <Videos data={landingPageData.Videos} />
                 <Testimonials data={landingPageData.Testimonials} />
+                <HubspotContactForm />
               </div>
             </div>
           }
@@ -91,6 +93,7 @@ const App = () => {
               <Navigation />
               <div style={{ minWidth: "fit-content" }}>
                 <Header data={landingPageData.Header} />
+                <HubspotContactForm />
                 <Benefits data={landingPageData.Benefits} />
                 <Features data={landingPageData.Features} />
                 {/* <Services data={landingPageData.Services} /> */}
