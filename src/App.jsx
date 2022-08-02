@@ -9,6 +9,7 @@ import { OurGoal } from "./components/ourgoal";
 import { Videos } from "./components/videos";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/team";
+import { UseCaseStatement } from "./components/usecasestatement";
 import { Contact } from "./components/contact";
 import { Pricing } from "./components/pricing";
 import { NotFound } from "./components/notfound";
@@ -78,6 +79,7 @@ const App = () => {
             <div>
               <Navigation />
               <div>
+                <UseCaseStatement />
                 <Videos data={landingPageData.Videos} />
                 <Testimonials data={landingPageData.Testimonials} />
                 <HubspotContactForm />
