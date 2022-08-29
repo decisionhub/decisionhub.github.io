@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Button from "@material-ui/core/Button";
-import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
+// import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
 
 const ScrollBar = styled.img`
   height: 60px;
@@ -33,7 +33,7 @@ export const Navigation = () => {
                 style={{ maxWidth: 225 }}
               />
             </a>
-            <a
+            {/* <a
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -68,7 +68,7 @@ export const Navigation = () => {
                   Sign In
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
 
@@ -125,6 +125,24 @@ export const Navigation = () => {
                 }}
               >
                 <span style={{ padding: 10 }}>Book Meeting</span>
+              </Button>
+            </li>
+            <li>
+              <Button
+                href="https://app.decisionhub.org/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="contained"
+                style={{
+                  backgroundColor: "white",
+                  borderRadius: "5px",
+                  color: "black",
+                  textTransform: "capitalize",
+                  margin: 10,
+                  maxWidth: 140
+                }}
+              >
+                <span style={{ padding: 10 }}>Sign In</span>
               </Button>
             </li>
             {/* <li>
