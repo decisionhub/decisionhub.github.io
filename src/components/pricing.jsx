@@ -27,10 +27,11 @@ export const Pricing = () => {
                     <h4 style={{ margin: "auto" }}>
                       <sup>$</sup>300
                       <span style={{ fontSize: 16 }}>/mo</span>
-                      <p style={{ color: "#fff", marginTop: 10 }}>
+                      <p style={{ color: "#fff" }}>Billed yearly</p>
+                      {/* <p style={{ color: "#fff", marginTop: 10 }}>
                         + $50 / reviewer
                       </p>
-                      <p style={{ color: "#fff" }}>+ $1 / application</p>
+                      <p style={{ color: "#fff" }}>+ $1 / application</p> */}
                       <p style={{ color: "#fff" }}>+ $300 / form</p>
                     </h4>
                   </div>
@@ -41,12 +42,12 @@ export const Pricing = () => {
                         Form
                       </li>
                       <li>
-                        <i className="fa fa-check" aria-hidden="true"></i> 20
-                        Applications
+                        <i className="fa fa-check" aria-hidden="true"></i>{" "}
+                        Unlimited Applications
                       </li>
                       <li>
-                        <i className="fa fa-check" aria-hidden="true"></i> 2
-                        Reviewers
+                        <i className="fa fa-check" aria-hidden="true"></i>{" "}
+                        Unlimited Reviewers
                       </li>
                       <li>
                         <i className="fa fa-check" aria-hidden="true"></i>{" "}
@@ -81,8 +82,9 @@ export const Pricing = () => {
                     <h4 style={{ margin: "auto" }}>
                       <sup>$</sup>600
                       <span style={{ fontSize: 16 }}>/mo</span>
-                      <p style={{ color: "#fff" }}>+ $25 / reviewer</p>
-                      <p style={{ color: "#fff" }}>+ $0.5 / application</p>
+                      <p style={{ color: "#fff" }}>Billed yearly</p>
+                      {/* <p style={{ color: "#fff" }}>+ $25 / reviewer</p>
+                      <p style={{ color: "#fff" }}>+ $0.5 / application</p> */}
                       <p style={{ color: "#fff" }}>+ $150 / form</p>
                     </h4>
                   </div>
@@ -93,12 +95,12 @@ export const Pricing = () => {
                         Forms
                       </li>
                       <li>
-                        <i className="fa fa-check" aria-hidden="true"></i> 50
-                        Applications
+                        <i className="fa fa-check" aria-hidden="true"></i>{" "}
+                        Unlimited Applications
                       </li>
                       <li>
-                        <i className="fa fa-check" aria-hidden="true"></i> 5
-                        Reviewers
+                        <i className="fa fa-check" aria-hidden="true"></i>{" "}
+                        Unlimited Reviewers
                       </li>
                       <li>
                         <i className="fa fa-check" aria-hidden="true"></i>{" "}
@@ -151,11 +153,11 @@ export const Pricing = () => {
                       </li>
                       <li>
                         <i className="fa fa-check" aria-hidden="true"></i>{" "}
-                        Starting from 100 Applications
+                        Unlimited Applications
                       </li>
                       <li>
                         <i className="fa fa-check" aria-hidden="true"></i>{" "}
-                        Starting from 20 Reviewers
+                        Unlimited Reviewers
                       </li>
                       <li>
                         <i className="fa fa-check" aria-hidden="true"></i>{" "}
